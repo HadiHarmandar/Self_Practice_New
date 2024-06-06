@@ -6,9 +6,11 @@ public class SwapTwoVariable1 {
 
         int x = 10;
         int y = 15;
-        int z = x;
-        x = y;
-        y = z;
+        System.out.println("x = " + x + "\ny = " + y);
+        int z = x; // temporary variable ==> z = 10;
+        x = y; // x = 15; y = 15;
+        y = z; // y = 10;
+        // x = 15; y = 10;
 
         System.out.println("x = " + x + "\n" + "y = " + y);
 

@@ -8,8 +8,7 @@ public class Square {
                 area = Math.pow(side, 2),
                 perimeter = side * 4;
 
-        System.out.println("Area of the square is " + area + "\n"
-        + "Perimeter of the square is " + perimeter);
+        System.out.println("Area of the square is " + area + "\nPerimeter of the square is " + perimeter);
 
     }
 }

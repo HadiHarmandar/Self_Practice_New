@@ -6,9 +6,10 @@ public class SwapTwoNumber2 {
 
         int x = 10;
         int y = 15;
-        x = x + y;
-        y = x - y;
-        x = x - y;
+        System.out.println("x = " + x + "\ny = " + y);
+        x = x + y; // x = 25; y = 15;
+        y = x - y; // x = 25; y = 25 - 15; ==> y = 10;
+        x = x - y; // x = 25 - 10; ==> x = 15; y = 10;
 
         System.out.println("x = " + x + "\n" + "y = " + y);
 
@@ -16,7 +17,7 @@ public class SwapTwoNumber2 {
 }
 
 /**
- Create a class named SwapTwoVariable21 and declare the following variables:
+ Create a class named SwapTwoVariable2 and declare the following variables:
      x
      y
 
